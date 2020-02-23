@@ -3,8 +3,9 @@ import React from 'react';
 function LastComponent(props){
     const backgroundColor = {backgroundColor:props.team}
     return(
-        <div team={props} style={styles.lastComponent}>
+        <div style={styles.lastComponent}>
          LastComponent
+         
          <button style={Object.assign({}, styles.btnclick, backgroundColor)}>
               Click MY
           </button>
@@ -32,6 +33,7 @@ const styles ={
         border:'1px solid black',
         borderRadius:'8%',
         cursor:'pointer',
+        color:'white',
         
 
     }

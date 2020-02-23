@@ -2,11 +2,11 @@ import React from 'react';
 
 import SecondComponent from './secondComponent';
 
-function FirsComponent(props){
+function FirsComponent(){
     return(
         <div style={styles.firsComponent}>
            FirsComponent
-           <SecondComponent team={props} />
+           <SecondComponent team={ 'black'} />
         </div>
     );
 };

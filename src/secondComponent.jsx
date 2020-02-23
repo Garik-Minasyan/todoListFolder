@@ -8,7 +8,7 @@ function SecondComponent(props) {
    return(
        <div style={styles.secondComponent}>
           SecondComponent
-          <LastComponent team={props} /> 
+          <LastComponent team={props.team}/> 
        </div>
    );
 };
