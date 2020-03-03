@@ -1,12 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-import FirstComponent from './firstComponent'
+import ReactDom from 'react-dom';
 
-import './index.css';
+import App from './components/app'
 
-import * as serviceWorker from './serviceWorker';
-
-ReactDOM.render(<FirstComponent />, document.getElementById('root'));
-
-serviceWorker.unregister();
+ReactDom.render( <App />
+   , document.getElementById('root'))
